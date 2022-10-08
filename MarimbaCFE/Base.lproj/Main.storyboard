@@ -105,7 +105,7 @@
                                                 </constraints>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="dmc-Fu-9k0" firstAttribute="leading" secondItem="Mee-kF-jHW" secondAttribute="leading" constant="10" id="8IY-rA-J7l"/>
                                             <constraint firstAttribute="bottom" secondItem="dmc-Fu-9k0" secondAttribute="bottom" constant="10" id="A65-ke-hZQ"/>
@@ -156,7 +156,7 @@
                                                 </constraints>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="IpX-9z-UQe" firstAttribute="leading" secondItem="nPv-yn-MaA" secondAttribute="leading" constant="36" id="20H-ep-nN9"/>
                                             <constraint firstItem="uNl-zi-MRV" firstAttribute="top" secondItem="nPv-yn-MaA" secondAttribute="top" constant="27.5" id="Frg-44-Zy1"/>
@@ -206,7 +206,7 @@
                                                 </constraints>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="kZn-ln-81X" firstAttribute="top" secondItem="ZO3-vZ-Poz" secondAttribute="top" constant="37.5" id="BZ4-Fd-Euv"/>
                                             <constraint firstItem="jXP-4A-Xe4" firstAttribute="leading" secondItem="ZO3-vZ-Poz" secondAttribute="leading" constant="10" id="FYe-kZ-Nyx"/>
@@ -257,7 +257,7 @@
                                                 </constraints>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="feU-Ht-Rmd" firstAttribute="top" secondItem="195-mZ-QkX" secondAttribute="top" constant="47.5" id="3Po-qv-FSR"/>
                                             <constraint firstItem="c9M-p8-SXb" firstAttribute="leading" secondItem="195-mZ-QkX" secondAttribute="leading" constant="36" id="G6T-6f-kU9"/>
@@ -308,7 +308,7 @@
                                                 </constraints>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="1hw-eA-g8L" firstAttribute="leading" secondItem="DX5-5A-gfu" secondAttribute="leading" constant="36" id="1o2-HR-3Pf"/>
                                             <constraint firstAttribute="trailing" secondItem="oE0-Uo-OPU" secondAttribute="trailing" constant="10" id="5SK-Hp-Pwy"/>
@@ -325,11 +325,11 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <constraints>
                             <constraint firstItem="OWb-XG-rBy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="GTd-PF-LfK"/>
                             <constraint firstAttribute="trailing" secondItem="OWb-XG-rBy" secondAttribute="trailing" constant="10" id="Mml-4J-w1c"/>
@@ -348,11 +348,14 @@
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
